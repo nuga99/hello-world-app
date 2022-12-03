@@ -16,7 +16,7 @@ it('should say Hello World', function (done) {
             data += chunk;
         });
         res.on('end', function () {
-            assert.equal(data, 'Hello World, please <a href="/welcome">welcome</a>.');
+            assert.equal(data, 'Hello World 2, please <a href="/welcome">welcome</a>.');
             done();
         });
     });
